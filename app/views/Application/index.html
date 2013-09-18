@@ -1,22 +1,228 @@
 #{extends 'main.html' /}
 #{set title:'Home' /}
 
-<section id="company" style="position:relative;height:100%;overflow: hidden;padding: 0;">
-	<div style="position:fixed;top:100px;left:0px;z-index:10">
-		<img src="/public/images/logo.png" />
+<section id="main" style="position:relative;height:100%;overflow: hidden;padding: 0;">
+	<div id="logoContainer">
+		<a href="/"><img src="/public/images/logo.png" /></a>
 	</div>
 	
-	<div style="margin-left:50px">
-		<img  class="img-responsive" src="/public/images/company/1_company1.jpg" />  			
-	</div>
+	<div id="mainBackgroundImage"></div>
 </section>
 
 
-<section id="showroom" style="position:relative;height:100%;overflow: hidden;padding: 0;margin-bottom:-50px">
-	<div style="margin-left:103px;margin-top: 50px;">
-		<div style="height:50px;width:100%;text-align:center">
-			<h5 style="text-decoration:underline;padding-top:10px">SHOWROOM</h5>
+
+<section id="company" style="position:relative;height:100%;overflow: hidden;padding: 0;margin-bottom:-50px">
+	<div style="margin-left:100px;margin-top: 50px;">
+	
+		<div class="pabsolute" style="position:absolute;width:300px;left:-200px;height:100%;z-index:90;cursor:pointer">
+			<div style="display:inline-block;float:left;width:300px;position:relative;height:100%;background:white;">			
+				<img class="openText" src="/public/images/open.png" />
+				<img class="closeText" src="/public/images/close.png" />
+			</div>	
 		</div>
-		<img class="img-responsive" src="/public/images/showroom/showroom1.jpg" />  			
+
+		
+	
+		<div style="height:50px;width:100%;text-align:center">
+			<h5 style="font-size:12px;text-decoration:underline;padding-top:25px;letter-spacing:1px">COMPANY</h5>
+		</div>
+	
+
+		<div class="imageContainer">
+    		<div class="slides">
+	      		<img class="img-responsive" src="/public/images/company/1_company1.jpg" />
+	      		<img class="img-responsive" src="/public/images/company/2_DSC4258a.jpg" />    
+	      		<a href="#" class="slidesjs-next slidesjs-navigation"></a>
+    		</div>
+		</div>
+				  			
 	</div>
 </section>
+
+
+<section id="showroom" style="position:relative;height:100%;overflow: hidden;padding: 0;">
+	<div style="margin-left:50px;margin-top: 50px;">
+		<div style="height:50px;width:100%;text-align:center">
+			<h5 style="font-size:12px;text-decoration:underline;padding-top:25px;letter-spacing:1px">SHOWROOM</h5>
+		</div>
+		
+		<div class="imageContainer">
+    		<div class="slides">
+	      		<img class="img-responsive" src="/public/images/showroom/showroom1.jpg" />
+	      		<img class="img-responsive" src="/public/images/showroom/showroom2.jpg" />
+	      		<img class="img-responsive" src="/public/images/showroom/showroom3.jpg" />     
+	      		<a href="#" class="slidesjs-next slidesjs-navigation"></a>
+    		</div>
+		</div>
+				  			
+	</div>
+</section>
+
+
+<section id="facilities" style="position:relative;height:100%;overflow: hidden;padding: 0;">
+	<div style="margin-top:50px;height:100%">
+		<div style="height:50px;width:100%;text-align:center">
+			<h5 style="font-size:12px;text-decoration:underline;padding-top:25px;letter-spacing:1px">FACILITIES</h5>
+		</div>		
+		
+		<div class="container text-center" style="height:168px">
+			<div class="row">
+			<div class="col-lg-2"></div>
+	        <div class="col-lg-8">	          
+	          <h2></h2>
+	        </div>	       
+	      </div>
+		</div>
+		
+		<div style="margin-left:50px;height:80%;overflow:hidden;background:black">
+			<img style="opacity:0.7;" class="img-responsive" src="/public/images/clients/background.jpg" />	
+		</div>
+				  			
+	</div>
+</section>
+
+<section id="services" style="position:relative;height:100%;overflow: hidden;padding: 0;margin-bottom:-50px">
+	<div style="margin-left:100px;margin-top: 50px;">
+	
+		<div class="pabsolute" style="position:absolute;width:300px;left:-200px;height:100%;z-index:90;cursor:pointer">
+			<div style="display:inline-block;float:left;width:300px;position:relative;height:100%;background:white;">			
+				<img class="openText" src="/public/images/open.png" />
+				<img class="closeText" src="/public/images/close.png" />
+			</div>	
+		</div>
+
+		
+	
+		<div style="height:50px;width:100%;text-align:center">
+			<h5 style="font-size:12px;text-decoration:underline;padding-top:25px;letter-spacing:1px">SERVICES</h5>
+		</div>
+	
+
+		<div class="imageContainer">
+    		<div class="slides">
+	      		<img class="img-responsive" src="/public/images/services/1services.jpg" />
+	      		<img class="img-responsive" src="/public/images/services/2Design.jpg" />
+	      		<img class="img-responsive" src="/public/images/services/3Production_DSC4414a.jpg" />    
+	      		<a href="#" class="slidesjs-next slidesjs-navigation"></a>
+    		</div>
+		</div>
+				  			
+	</div>
+</section>
+
+
+<section id="client" style="position:relative;height:100%;overflow: hidden;padding: 0;">
+	<div style="margin-top:50px;height:100%">
+		<div style="height:50px;width:100%;text-align:center">
+			<h5 style="font-size:12px;text-decoration:underline;padding-top:25px;letter-spacing:1px">CAREER</h5>
+		</div>		
+		
+		<div class="container text-center" style="height:168px">
+			<div class="row">
+			<div class="col-lg-2"></div>
+	        <div class="col-lg-8">	          
+	          <h2>SERVING WITH EXPERTISE & LOVE</h2>
+	        </div>	       
+	      </div>
+		</div>
+		
+		<div style="margin-left:50px;height:80%;overflow:hidden;background:black">
+			<img style="opacity:0.7;" class="img-responsive" src="/public/images/clients/background.jpg" />	
+		</div>
+				  			
+	</div>
+</section>
+
+
+<section id="contact" style="position:relative;height:100%;overflow: hidden;padding: 0;">
+	<div style="margin-top:50px;height:100%">
+		<div style="height:50px;width:100%;text-align:center">
+			<h5 style="font-size:12px;text-decoration:underline;padding-top:25px;letter-spacing:1px">CONTACT</h5>
+		</div>
+			
+		<div style="margin-left:50px;height:50%;overflow:hidden;">
+			<img class="img-responsive" src="/public/images/contact/contact.jpg" /> 			
+		</div>
+		
+		<div class="container text-center">
+			<div class="row">
+	        <div class="col-lg-3">
+	          <h2>TÜRKİYE</h2>
+	          <p class="contactCountry">SBS Tekstil San. ve Tic A.Ş</p>
+	          <p class="contactAddress">Emek Mahallesi, Nato Yolu No:4
+	          	Sarıgazi 34738 İstanbul/Türkiye
+	          	Tel: +90 (216) 645 27 27
+	          	Fax: +90 (216) 466 33 44
+	          	E-mail:sbs@shirtbyshirt.com
+	          </p>
+	        </div>
+	        <div class="col-lg-3">
+	          <h2>BELGIUM</h2>
+	          <p class="contactCountry">SBS Tekstil San. ve Tic A.Ş</p>
+	          <p class="contactAddress">Emek Mahallesi, Nato Yolu No:4
+	          	Sarıgazi 34738 İstanbul/Türkiye
+	          	Tel: +90 (216) 645 27 27
+	          	Fax: +90 (216) 466 33 44
+	          	E-mail:sbs@shirtbyshirt.com
+	          </p>
+	        </div>
+	        <div class="col-lg-3">
+	          <h2>DENMARK</h2>
+	          <p class="contactCountry">SBS Tekstil San. ve Tic A.Ş</p>
+	          <p class="contactAddress">Emek Mahallesi, Nato Yolu No:4
+	          	Sarıgazi 34738 İstanbul/Türkiye
+	          	Tel: +90 (216) 645 27 27
+	          	Fax: +90 (216) 466 33 44
+	          	E-mail:sbs@shirtbyshirt.com
+	          </p>
+	        </div>
+	        <div class="col-lg-3">
+	          <h2>TÜRKİYE</h2>
+	          <p class="contactCountry">SBS Tekstil San. ve Tic A.Ş</p>
+	          <p class="contactAddress">Emek Mahallesi, Nato Yolu No:4
+	          	Sarıgazi 34738 İstanbul/Türkiye
+	          	Tel: +90 (216) 645 27 27
+	          	Fax: +90 (216) 466 33 44
+	          	E-mail:sbs@shirtbyshirt.com
+	          </p>
+	        </div>
+	      </div>
+		</div>
+				  			
+	</div>
+</section>
+
+
+
+<section id="career" style="position:relative;height:100%;overflow: hidden;padding: 0;">
+	<div style="margin-top:50px;height:100%">
+		<div style="height:50px;width:100%;text-align:center">
+			<h5 style="font-size:12px;text-decoration:underline;padding-top:25px;letter-spacing:1px">CAREER</h5>
+		</div>		
+		
+		<div class="container">
+			<div class="row">
+	        	<div class="col-lg-6">	          
+	          		<p class="sendYourCV">Please send your CV to esra@shirtbyshirt.com</p>
+	        	</div>	       
+	      	</div>
+		</div>
+		
+		<div style="margin-left:50px;height:80%;overflow:hidden;">
+			<img class="img-responsive" src="/public/images/career/Career.jpg" /> 			
+		</div>
+				  			
+	</div>
+</section>
+
+<script>
+    $(function() {
+      $('.slides').each(function(){
+    	  $(this).slidesjs({    
+        	width: 940,
+        	height: 528,
+        	navigation: false
+      	});
+      })
+    });
+  </script>

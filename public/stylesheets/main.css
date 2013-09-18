@@ -1,0 +1,82 @@
+#mainBackgroundImage{background-size:cover;margin-left:50px;background-image:url('/public/images/anasayfa/1company.jpg');width:100%;height:100%}
+.sendYourCV{font-size:13px;margin-left:60px}
+.contactCountry{font-size:13px}
+.contactAddress{font-size:12px}
+.dropdown-menu {background:black}
+.dropdown-menu>li>a {color:white;font-size:11px;text-decoration:underline;line-height:1.5;letter-spacing:1px}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+background:black;text-decoration:underline;	
+}	
+.openText{z-index:90;position:absolute;right:10px;bottom:60px}
+.closeText{z-index:90;position:absolute;right:10px;bottom:60px;display:none}
+
+#logoContainer{position:fixed;top:100px;left:0px;z-index:1000000}
+#logoContainer a {z-index:1000;cursor:pointer}
+
+.imageContainer{position:relative}
+
+#showroom .slidesjs-pagination {left:50%;margin-left:-67px !important}
+#company .slidesjs-pagination {left:50%;margin-left:-57px !important}
+#services .slidesjs-pagination {left:50%;margin-left:-57px !important}
+
+.slidesjs-pagination {position:absolute;top:10px;z-index:100;}
+.slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    .slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slides .slidesjs-next {
+      position:absolute;
+      top:50%;
+      margin-top:-10px;
+      background:url("/public/images/sag_ok.png") no-repeat center center;
+      z-index:1000;
+      width:49px;
+      height:46px;
+      right:0px;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(/public/images/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    .slides a:link,
+    .slides a:visited {
+      color: #333
+    }
+
+    .slides a:hover,
+    .slides a:active {
+      color: #9e2020
+    }
