@@ -14,6 +14,7 @@ $('.openText').click(function(){
 		"left":"0"				
 	}, 500,function(){
 		dis.toggle(false);
+		that.find('#companyText').toggle(true);
 		that.find('.closeText').toggle(true);
 	});
 	return false;
@@ -23,56 +24,28 @@ $('.closeText').click(function(){
 	var dis = $(this);
 	var that = $(this).parents(".pabsolute");
 	that.animate({
-		"left":"-200"				
+		"left":"-260"				
 	}, 500,function(){
 		dis.toggle(false);
+		that.find('#companyText').toggle(false);
 		that.find('.openText').toggle(true);
 	});
 	return false;
 });
 
 
+$('#mainPageImages').cycle({
+	fx:     'fade', 
+    speed:  '500', 
+    timeout: 0, 
+    next:   '#yarak', 
+});
+
 $(document).on({
-    mouseenter: function () {
-    	$('#mainBackgroundImage').hide().css("background-image", "url('/public/images/anasayfa/1company.jpg')").fadeIn(800);
+    mouseenter: function () {    	    	        
+    	$('#yarak').trigger("click");
     }  
-}, '#companyLink');
-
-$(document).on({
-    mouseenter: function () {
-    	$('#mainBackgroundImage').hide().css("background-image", "url('/public/images/anasayfa/2showroom.jpg')").fadeIn(800);
-    }   
-}, '#showroomLink');
-
-$(document).on({
-    mouseenter: function () {
-    	$('#mainBackgroundImage').hide().css("background-image", "url('/public/images/anasayfa/3facilities_DSC4526a.jpg')").fadeIn(800);
-    }   
-}, '#facilitiesLink');
-
-$(document).on({
-    mouseenter: function () {
-    	$('#mainBackgroundImage').hide().css("background-image", "url('/public/images/anasayfa/4services.jpg')").fadeIn(800);
-    }   
-}, '#servicesLink');
-
-$(document).on({
-    mouseenter: function () {
-    	$('#mainBackgroundImage').hide().css("background-image", "url('/public/images/anasayfa/5Clients_DSC4419a.jpg')").fadeIn(800);
-    }   
-}, '#clientLink');
-
-$(document).on({
-    mouseenter: function () {
-    	$('#mainBackgroundImage').hide().css("background-image", "url('/public/images/anasayfa/6contact.jpg')").fadeIn(800);
-    }   
-}, '#contactLink');
-
-$(document).on({
-    mouseenter: function () {
-    	$('#mainBackgroundImage').hide().css("background-image", "url('/public/images/anasayfa/7career.jpg')").fadeIn(800);
-    }   
-}, '#careerLink');
+}, '.jump');
 
 
 
