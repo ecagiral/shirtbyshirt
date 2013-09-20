@@ -1,3 +1,31 @@
+#client .slides .slidesjs-next {
+top:30%;
+}
+
+@media (max-width: 980px) {
+.slidesjs-container,.slidesjs-control{height:1400px !important}
+}
+
+ul#accordion-slider{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ position: relative;
+}
+
+ul#accordion-slider li{
+ display: block;
+ overflow: hidden;
+ padding: 0;
+ float: left;
+ width: 33%;
+}
+
+ul#accordion-slider li:first-child{
+ width: 34%;
+}
+
+
 #clientLogo1{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/massimo_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo2{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/zara_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo3{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/bershka_black.png') no-repeat center;width:16%;height:33%}
@@ -8,7 +36,7 @@
 #clientLogo8{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/forever21_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo9{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/topman_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo10{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/mavi_black.png') no-repeat center;width:16%;height:33%}
-#clientLogo11{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/allsaints_black.png') no-repeat center;width:16%;height:33%}
+#clientLogo11{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/alsaints_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo12{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/esprit_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo13{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/springfield_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo14{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/debenhams_black.png') no-repeat center;width:16%;height:33%}
@@ -23,58 +51,56 @@
 #clientLogo23{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/c&a_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo24{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/burton_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo25{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/koton_black.png') no-repeat center;width:16%;height:33%}
-#clientLogo26{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/dunnesstore_black.png') no-repeat center;width:16%;height:33%}
+#clientLogo26{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/dunnes_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo27{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/brice_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo28{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/henryscottons_black.png') no-repeat center;width:16%;height:33%}
-#clientLogo29{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/soviet_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo30{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/el_corte_ingles_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo31{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/george_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo32{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/celio_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo33{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/heroseven_black.png') no-repeat center;width:16%;height:33%}
-#clientLogo34{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/carnetdevol_black.png') no-repeat center;width:16%;height:33%}
+#clientLogo34{background-size:cover;display:inline-block;background:url('/public/images/clients/black_logos/carnet_black.png') no-repeat center;width:16%;height:33%}
 
 
 
-#clientLogo1:hover{background:url('/public/images/clients/white_logos/massimo.png') no-repeat center;}
-#clientLogo2:hover{background:url('/public/images/clients/white_logos/zara.png') no-repeat center;width:16%;height:33%}
-#clientLogo3:hover{background:url('/public/images/clients/white_logos/bershka.png') no-repeat center;width:16%;height:33%}
-#clientLogo4:hover{background:url('/public/images/clients/white_logos/h&m.png') no-repeat center;width:16%;height:33%}
-#clientLogo5:hover{background:url('/public/images/clients/white_logos/next.png') no-repeat center;width:16%;height:33%}
-#clientLogo6:hover{background:url('/public/images/clients/white_logos/mcs.png') no-repeat center;width:16%;height:33%}
-#clientLogo7:hover{background:url('/public/images/clients/white_logos/m&s.png') no-repeat center;width:16%;height:33%}
-#clientLogo8:hover{background:url('/public/images/clients/white_logos/forever21.png') no-repeat center;width:16%;height:33%}
-#clientLogo9:hover{background:url('/public/images/clients/white_logos/topman.png') no-repeat center;width:16%;height:33%}
-#clientLogo10:hover{background:url('/public/images/clients/white_logos/mavi.png') no-repeat center;width:16%;height:33%}
-#clientLogo11:hover{background:url('/public/images/clients/white_logos/allsaints.png') no-repeat center;width:16%;height:33%}
-#clientLogo12:hover{background:url('/public/images/clients/white_logos/esprit.png') no-repeat center;width:16%;height:33%}
-#clientLogo13:hover{background:url('/public/images/clients/white_logos/springfield.png') no-repeat center;width:16%;height:33%}
-#clientLogo14:hover{background:url('/public/images/clients/white_logos/debenhams.png') no-repeat center;width:16%;height:33%}
-#clientLogo15:hover{background:url('/public/images/clients/white_logos/cortefiel.png') no-repeat center;width:16%;height:33%}
-#clientLogo16:hover{background:url('/public/images/clients/white_logos/we.png') no-repeat center;width:16%;height:33%}
-#clientLogo17:hover{background:url('/public/images/clients/white_logos/sainsburys.png') no-repeat center;width:16%;height:33%}
-#clientLogo18:hover{background:url('/public/images/clients/white_logos/ollygan.png') no-repeat center;width:16%;height:33%}
-#clientLogo19:hover{background:url('/public/images/clients/white_logos/castro.png') no-repeat center;width:16%;height:33%}
-#clientLogo20:hover{background:url('/public/images/clients/white_logos/mudo.png') no-repeat center;width:16%;height:33%}
-#clientLogo21:hover{background:url('/public/images/clients/white_logos/riverwoods.png') no-repeat center;width:16%;height:33%}
-#clientLogo22:hover{background:url('/public/images/clients/white_logos/reserved.png') no-repeat center;width:16%;height:33%}
-#clientLogo23:hover{background:url('/public/images/clients/white_logos/c&a.png') no-repeat center;width:16%;height:33%}
-#clientLogo24:hover{background:url('/public/images/clients/white_logos/burton.png') no-repeat center;width:16%;height:33%}
-#clientLogo25:hover{background:url('/public/images/clients/white_logos/koton.png') no-repeat center;width:16%;height:33%}
-#clientLogo26:hover{background:url('/public/images/clients/white_logos/dunnesstore.png') no-repeat center;width:16%;height:33%}
-#clientLogo27:hover{background:url('/public/images/clients/white_logos/brice.png') no-repeat center;width:16%;height:33%}
-#clientLogo28:hover{background:url('/public/images/clients/white_logos/henrycottons.png') no-repeat center;width:16%;height:33%}
-#clientLogo29:hover{background:url('/public/images/clients/white_logos/soviet.png') no-repeat center;width:16%;height:33%}
-#clientLogo30:hover{background:url('/public/images/clients/white_logos/el_corte_ingles.png') no-repeat center;width:16%;height:33%}
-#clientLogo31:hover{background:url('/public/images/clients/white_logos/george.png') no-repeat center;width:16%;height:33%}
-#clientLogo32:hover{background:url('/public/images/clients/white_logos/celio.png') no-repeat center;width:16%;height:33%}
-#clientLogo33:hover{background:url('/public/images/clients/white_logos/heroseven.png') no-repeat center;width:16%;height:33%}
-#clientLogo34:hover{background:url('/public/images/clients/white_logos/carnetdevol.png') no-repeat center;width:16%;height:33%}
+#clientLogo1:hover{background:url('/public/images/clients/white_logos/massimo_white.png') no-repeat center;}
+#clientLogo2:hover{background:url('/public/images/clients/white_logos/zara_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo3:hover{background:url('/public/images/clients/white_logos/bershka_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo4:hover{background:url('/public/images/clients/white_logos/h&m_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo5:hover{background:url('/public/images/clients/white_logos/next_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo6:hover{background:url('/public/images/clients/white_logos/mcs_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo7:hover{background:url('/public/images/clients/white_logos/m&s_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo8:hover{background:url('/public/images/clients/white_logos/forever21_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo9:hover{background:url('/public/images/clients/white_logos/topman_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo10:hover{background:url('/public/images/clients/white_logos/mavi_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo11:hover{background:url('/public/images/clients/white_logos/alsaints_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo12:hover{background:url('/public/images/clients/white_logos/esprit_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo13:hover{background:url('/public/images/clients/white_logos/springfield_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo14:hover{background:url('/public/images/clients/white_logos/debenhams_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo15:hover{background:url('/public/images/clients/white_logos/cortefiel_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo16:hover{background:url('/public/images/clients/white_logos/we_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo17:hover{background:url('/public/images/clients/white_logos/sainsburys_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo18:hover{background:url('/public/images/clients/white_logos/ollygan_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo19:hover{background:url('/public/images/clients/white_logos/castro_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo20:hover{background:url('/public/images/clients/white_logos/mudo_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo21:hover{background:url('/public/images/clients/white_logos/riverwoods_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo22:hover{background:url('/public/images/clients/white_logos/reserved_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo23:hover{background:url('/public/images/clients/white_logos/c&a_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo24:hover{background:url('/public/images/clients/white_logos/burton_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo25:hover{background:url('/public/images/clients/white_logos/koton_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo26:hover{background:url('/public/images/clients/white_logos/dunnes_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo27:hover{background:url('/public/images/clients/white_logos/brice_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo28:hover{background:url('/public/images/clients/white_logos/henrycottons_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo30:hover{background:url('/public/images/clients/white_logos/el_corte_ingles_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo31:hover{background:url('/public/images/clients/white_logos/george_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo32:hover{background:url('/public/images/clients/white_logos/celio_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo33:hover{background:url('/public/images/clients/white_logos/heroseven_white.png') no-repeat center;width:16%;height:33%}
+#clientLogo34:hover{background:url('/public/images/clients/white_logos/carnet_white.png') no-repeat center;width:16%;height:33%}
 
 
 
 #careerBackgroundImage1{background-size:cover;background-image:url('/public/images/career/Career.jpg');width:100%;height:100%}
 #contactBackgroundImage1{background-size:cover;background-image:url('/public/images/contact/contact.jpg');width:100%;height:60%}
-#clientBackgroundImage1{background-size:cover;background-image:url('/public/images/clients/background.jpg');width:100%;height:60%}
+#clientBackgroundImage1{background-size:cover;background-image:url('/public/images/clients/background.jpg');width:100%;height:61%}
 #clientBackgroundImage2{background-size:cover;background-image:url('/public/images/clients/background.jpg');width:100%;height:60%}
 
 #companyBackgroundImage1{background-size:cover;background-image:url('/public/images/company/1_company1.jpg');width:100%;height:100%}
@@ -95,7 +121,7 @@ body{
 #showroomBackgroundImage2{background-size:cover;background-image:url('/public/images/showroom/showroom2.jpg');width:100%;height:100%}
 #showroomBackgroundImage3{background-size:cover;background-image:url('/public/images/showroom/showroom3.jpg');width:100%;height:100%}
 #showroomBackgroundImage4{background-size:cover;background-image:url('/public/images/showroom/showroom1.jpg');width:100%;height:100%}
-#showroomBackgroundImage5{background-size:cover;background-image:url('/public/images/showroom/showroom4.jpg');width:100%;height:100%}
+#showroomBackgroundImage5{background-size:cover;background-image:url('/public/images/showroom/children.jpg');width:100%;height:100%}
 
 #servicesBackgroundImage1{background-size:cover;background-image:url('/public/images/services/1services.jpg');width:100%;height:100%}
 #servicesBackgroundImage2{background-size:cover;background-image:url('/public/images/services/2Design.jpg');width:100%;height:100%}
