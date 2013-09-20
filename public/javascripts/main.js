@@ -14,7 +14,7 @@ $('.openText').click(function(){
 		"left":"0"				
 	}, 500,function(){
 		dis.toggle(false);
-		that.find('#companyText').toggle(true);
+		that.find('.sliderText').toggle(true);
 		that.find('.closeText').toggle(true);
 	});
 	return false;
@@ -27,7 +27,7 @@ $('.closeText').click(function(){
 		"left":"-260"				
 	}, 500,function(){
 		dis.toggle(false);
-		that.find('#companyText').toggle(false);
+		that.find('.sliderText').toggle(false);
 		that.find('.openText').toggle(true);
 	});
 	return false;
@@ -38,12 +38,12 @@ $('#mainPageImages').cycle({
 	fx:     'fade', 
     speed:  '500', 
     timeout: 0, 
-    next:   '#yarak', 
+    next:   '#fotolar', 
 });
 
 $(document).on({
     mouseenter: function () {    	    	        
-    	$('#yarak').trigger("click");
+    	$('#fotolar').trigger("click");
     }  
 }, '.jump');
 

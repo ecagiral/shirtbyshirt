@@ -1,5 +1,11 @@
+.sectionHeaders{font-family: 'Raleway', sans-serif;}
+
+body{
+	font-family: 'Questrial', sans-serif;
+}
+
 #servicesBackgroundImage2 p:first-child,#servicesBackgroundImage3 p:first-child{font-style:normal;font-weight:bold;font-size:40px}
-#servicesBackgroundImage2 p,#servicesBackgroundImage3 p{color:white;font-size:35px;font-style:italic;line-height:35px}
+#servicesBackgroundImage2 p,#servicesBackgroundImage3 p{color:white;font-size:35px;font-style:italic;line-height:35px;font-weight:bold}
 
 #showroomBackgroundImage1 p,#showroomBackgroundImage2 p, #showroomBackgroundImage3 p{color:white;font-size:55px;line-height:35px;font-style:normal;font-weight:bold;}
 
@@ -12,7 +18,9 @@
 #servicesBackgroundImage3{background-size:cover;background-image:url('/public/images/services/3Production_DSC4414a.jpg');width:100%;height:100%}  
 	      		
 
-#companyText{display:none;font-size:12px;color:Gray}
+#companyText{display:none;font-size:12px;color:gray;font-family: 'Questrial', sans-serif;}
+#servicesText{display:none;font-size:12px;color:gray;font-family: 'Questrial', sans-serif;}
+#facilitiesText{font-size:12px;color:gray;font-family: 'Questrial', sans-serif;float:left;text-align:left}
 
 #mainBackgroundImage1{background-size:cover;margin-left:50px;background-image:url('/public/images/anasayfa/1company.jpg');width:100%;height:100%}
 #mainBackgroundImage2{background-size:cover;margin-left:50px;background-image:url('/public/images/anasayfa/2showroom.jpg');width:100%;height:100%}
@@ -30,15 +38,15 @@
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
 background:black;text-decoration:underline;	
 }	
-.openText{z-index:90;position:absolute;right:10px;bottom:60px}
-.closeText{z-index:90;position:absolute;right:10px;bottom:60px;display:none}
+.openText{z-index:90;position:absolute;right:10px;bottom:60px;cursor:pointer}
+.closeText{z-index:90;position:absolute;right:10px;bottom:60px;display:none;cursor:pointer}
 
 #logoContainer{position:fixed;top:100px;left:0px;z-index:1000000}
 #logoContainer a {z-index:1000;cursor:pointer}
 
 .imageContainer{position:relative}
 
-#showroom .slidesjs-pagination {left:50%;margin-left:-67px !important}
+#showroom .slidesjs-pagination {left:50%;margin-left:-77px !important}
 #company .slidesjs-pagination {left:50%;margin-left:-57px !important}
 #services .slidesjs-pagination {left:50%;margin-left:-64px !important}
 
