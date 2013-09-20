@@ -1,3 +1,27 @@
+#tr_small_logo{
+position:absolute;top:50%;left:50%;margin-left:-30px;cursor:pointer;
+}
+
+#tr_big_logo{
+position:absolute;top:50%;left:50%;margin-left:-30px;cursor:pointer;display:none;
+}
+
+#ne_small_logo{
+position:absolute;top:50%;left:50%;margin-left:-30px;cursor:pointer;
+}
+
+#ne_big_logo{
+position:absolute;top:50%;left:50%;margin-left:-30px;cursor:pointer;display:none;
+}
+
+#se_small_logo{
+position:absolute;top:50%;left:50%;margin-left:-30px;cursor:pointer;
+}
+
+#se_big_logo{
+position:absolute;top:50%;left:50%;margin-left:-30px;cursor:pointer;display:none;
+}
+
 #client .slides .slidesjs-next {
 top:30%;
 }

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+	
 $('.jump').click(function(){
 	$('html, body').animate({
 		scrollTop: $( $.attr(this, 'href') ).offset().top
@@ -47,7 +47,7 @@ $(document).on({
     }  
 }, '.jump');
 
-
-
+var acHeight = $('#accordionContainer').height();
+$('#accordion-slider>li .i').height(acHeight+100);
 
 });
