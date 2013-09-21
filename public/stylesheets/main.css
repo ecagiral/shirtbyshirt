@@ -31,11 +31,6 @@ position:absolute;top:50%;left:50%;margin-left:-30px;cursor:pointer;display:none
 top:30%;
 }
 
-@media (max-width: 980px) {
-.slidesjs-container,.slidesjs-control{height:1400px !important}
-#contact{height:205% !important}
-}
-
 ul#accordion-slider{
  margin: 0;
  padding: 0;
@@ -129,7 +124,7 @@ ul#accordion-slider li:first-child{
 
 
 #careerBackgroundImage1{background-size:cover;background-image:url('/public/images/career/Career.jpg');width:100%;height:100%}
-#contactBackgroundImage1{background-size:cover;background-image:url('/public/images/contact/contact.jpg');width:100%;height:60%}
+#contactBackgroundImage1{background-size:cover;background-image:url('/public/images/contact/contact.jpg');width:100%;height:55%;background-position:-250px}
 #clientBackgroundImage1{background-size:cover;background-image:url('/public/images/clients/background.jpg');width:100%;height:61%}
 #clientBackgroundImage2{background-size:cover;background-image:url('/public/images/clients/background.jpg');width:100%;height:60%}
 
@@ -145,7 +140,7 @@ body{
 #servicesBackgroundImage2 p:first-child,#servicesBackgroundImage3 p:first-child{font-style:normal;font-weight:bold;font-size:40px}
 #servicesBackgroundImage2 p,#servicesBackgroundImage3 p{color:white;font-size:35px;font-style:italic;line-height:35px;font-weight:bold}
 
-#showroomBackgroundImage1 p,#showroomBackgroundImage2 p, #showroomBackgroundImage3 p,#showroomBackgroundImage4 p,#showroomBackgroundImage5 p{color:white;font-size:55px;line-height:35px;font-style:normal;font-weight:bold;}
+#showroomBackgroundImage1 p,#showroomBackgroundImage2 p, #showroomBackgroundImage3 p,#showroomBackgroundImage4 p,#showroomBackgroundImage5 p{color:white;font-size:55px;line-height:45px;font-style:normal;font-weight:bold;}
 
 #showroomBackgroundImage1{background-size:cover;background-image:url('/public/images/showroom/_DSC4305a.jpg');width:100%;height:100%}
 #showroomBackgroundImage2{background-size:cover;background-image:url('/public/images/showroom/showroom2.jpg');width:100%;height:100%}
@@ -252,3 +247,8 @@ background:black;text-decoration:underline;
     .slides a:active {
       color: #9e2020
     }
+
+@media (max-width: 980px) {
+.imageContainer,.slides,.slidesjs-container,.slidesjs-control{height:1400px !important}
+#contact{height:205% !important}
+}
