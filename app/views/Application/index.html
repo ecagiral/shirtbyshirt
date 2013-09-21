@@ -88,7 +88,7 @@
 		<div style="height:50px;width:100%;text-align:center">
 			<h5 class="sectionHeaders"  style="font-size:12px;text-decoration:underline;padding-top:25px;letter-spacing:1px">FACILITIES</h5>
 		</div>				
-		<div class="container text-center" style="height:168px;position:relative">
+		<div class="container text-center" style="height:130px;position:relative">
 			<div style="width:350px;position:absolute;top:50%;margin-top:-45px;margin-left:-150px;left:50%">	          
 	          	<p id="facilitiesText">
 	          		ShirtbyShirt’s rapidly growing company’s head office is currently operating by marketing, finance, sourcing, 
@@ -97,25 +97,53 @@
 	          	</p>
 	        </div>
 		</div>		
-		<div id="accordionContainer" style="margin-left:50px;height:60%;overflow:hidden;background:black">		
+		<div id="accordionContainer" style="margin-left:50px;height:75%;overflow:hidden;background:black">		
 			<ul id="accordion-slider">
-				<li style="position:realtive">
+				<li>
 					<img class="i" src="/public/images/facilities/1Turkiye_DSC4660a.jpg" alt="Image Title"/>
-					<img id="tr_small_logo" src="/public/images/facilities/SMALL/TR_S.png"/>
-					<img id="tr_big_logo" src="/public/images/facilities/Large/TR_L.png"/>
+					<img class="countryIcons" data-type="tr" id="tr_small_logo" src="/public/images/facilities/SMALL/TR_S.png"/>
+					<img class="countryIcons" data-type="tr" id="tr_big_logo" src="/public/images/facilities/Large/TR_L.png"/>
 				</li>
 				<li>
 					<img class="i" src="/public/images/facilities/2Vietnam_DSC4472a.jpg" alt="Image Title"/>
-					<img id="ne_small_logo" src="/public/images/facilities/SMALL/VIE_S.png"/>
-					<img id="ne_big_logo" src="/public/images/facilities/Large/VIE_L.png"/>
+					<img class="countryIcons" data-type="viet" id="vi_small_logo" src="/public/images/facilities/SMALL/VIE_S.png"/>
+					<img class="countryIcons" data-type="viet" id="vi_big_logo" src="/public/images/facilities/Large/VIE_L.png"/>
 				</li>
 				<li>
 					<img class="i" src="/public/images/facilities/3Bangladesh_DSC4594a.jpg" alt="Image Title"/>
-					<img id="se_small_logo" src="/public/images/facilities/SMALL/BAN_S.png"/>
-					<img id="se_big_logo" src="/public/images/facilities/Large/BAN_L.png"/>
+					<img class="countryIcons" data-type="ban" id="ba_small_logo" src="/public/images/facilities/SMALL/BAN_S.png"/>
+					<img class="countryIcons" data-type="ban" id="ba_big_logo" src="/public/images/facilities/Large/BAN_L.png"/>
 				</li>		
 			</ul>				
-		</div>				  			
+		</div>
+		
+		<div style="width:350px;" class="container text-center" id="facilitiesBottomTextContainer">
+			<div id="turkey">	          
+				<h3>TURKEY</h3>
+	          	<p id="facilitiesTextTurkey">
+	          		SBS privately owned factory is situated in Duzce, Turkey. Besides SBS employs over 200 people 
+	          		with a monthly capacity of 70.000 pieces. Also the company works with subcontractors with 
+	          		330.000 pieces per month. 
+	          	</p>
+	        </div>
+			<div id="vietnam">	          
+				<h3>VIETNAM</h3>
+	          	<p id="facilitiesTextVietnam">
+	          		In order to adapt to the changing economical conditions and to satisfy the various needs of 
+	          		its customers, in 2008 ShirtbyShirt started its operation in Vietnam. There is an office 
+	          		with 20 employees managing operations concerning Far East from a local point.
+	          	</p>
+	        </div>
+	        <div id="bangladesh">	          
+				<h3>BANGLADESH</h3>
+	          	<p id="facilitiesTextBangladesh">
+	          		In order to adapt to the changing economical conditions and to satisfy the various needs of 
+	          		its customers, in 2008 ShirtbyShirt started its operation in Vietnam. There is an office 
+	          		with 20 employees managing operations concerning Far East from a local point.
+	          	</p>
+	        </div>    
+		</div>		
+						  			
 	</div>
 </section>
 
@@ -305,11 +333,12 @@
     
     $().ready(function() {
     	 $('#accordion-slider').kwicks({
-    	 max : 800,
+    	 max : 820,
     	 spacing : 2,
     	 easing: 'swing',
     	 // The event that triggers the expand effect
-    	 event: 'click'    	 
+    	 event: 'click',
+    	 eventClose: 'click'   	 
     	 });
     });   
 </script>
