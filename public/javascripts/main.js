@@ -30,7 +30,7 @@ $('.closeText').click(function(){
 	var dis = $(this);
 	var that = $(this).parents(".pabsolute");
 	that.animate({
-		"left":"-290"				
+		"left":"-310"				
 	}, 500,function(){
 		dis.toggle(false);
 		that.find('.sliderText').toggle(false);
