@@ -33,6 +33,7 @@ top:30%;
 
 @media (max-width: 980px) {
 .slidesjs-container,.slidesjs-control{height:1400px !important}
+#contact{height:205% !important}
 }
 
 ul#accordion-slider{
