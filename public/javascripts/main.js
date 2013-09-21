@@ -53,45 +53,51 @@ $(document).on({
     }  
 }, '.jump');
 
-$("#tr_small_logo").mouseover(function() {	
+$("#tr_big_logo").mouseover(function() {	
+	if(!$(this).hasClass("clicked")){		
+		$('#tr_big_logo').animate({
+			"margin-left":"-35px",
+			"width":"65px"
+		});
+	}
+}).mouseout(function() {
 	if(!$(this).hasClass("clicked")){
-		$('#tr_small_logo').toggle(false);
-		$('#tr_big_logo').toggle(true);
+		$('#tr_big_logo').animate({
+			"margin-left":"-30px",
+			"width":"50px"
+		});
 	}
 });
 
-$('#tr_big_logo').mouseout(function() {
+$("#vi_big_logo").mouseover(function() {
 	if(!$(this).hasClass("clicked")){
-		$('#tr_small_logo').toggle(true);
-		$('#tr_big_logo').toggle(false);
+		$('#vi_big_logo').animate({
+			"margin-left":"-35px",
+			"width":"65px"
+		});
+	}
+}).mouseout(function() {
+	if(!$(this).hasClass("clicked")){
+		$('#vi_big_logo').animate({
+			"margin-left":"-30px",
+			"width":"50px"
+		});
 	}
 });
 
-$("#vi_small_logo").mouseover(function() {
+$("#ba_big_logo").mouseover(function() {
 	if(!$(this).hasClass("clicked")){
-		$('#vi_small_logo').toggle(false);
-		$('#vi_big_logo').toggle(true);
+		$('#ba_big_logo').animate({
+			"margin-left":"-35px",
+			"width":"65px"
+		});
 	}
-});
-
-$('#vi_big_logo').mouseout(function() {
+}).mouseout(function() {
 	if(!$(this).hasClass("clicked")){
-		$('#vi_small_logo').toggle(true);
-		$('#vi_big_logo').toggle(false);
-	}
-});
-
-$("#ba_small_logo").mouseover(function() {
-	if(!$(this).hasClass("clicked")){
-		$('#ba_small_logo').toggle(false);
-		$('#ba_big_logo').toggle(true);
-	}
-});
-
-$('#ba_big_logo').mouseout(function() {
-	if(!$(this).hasClass("clicked")){
-		$('#ba_small_logo').toggle(true);	
-		$('#ba_big_logo').toggle(false);
+		$('#ba_big_logo').animate({
+			"margin-left":"-30px",
+			"width":"50px"
+		});
 	}
 });
 
@@ -104,47 +110,77 @@ $(document).on("click", ".countryIcons", function(event){
 	$(".countryIcons").removeClass("clicked");
 	$(this).addClass("clicked");
 	if(country == "ban"){		
-		$('#tr_small_logo').toggle(true);
-		$('#tr_big_logo').toggle(false);
-		$('#vi_small_logo').toggle(true);
-		$('#vi_big_logo').toggle(false);
-		$('#ba_small_logo').toggle(false);
-		$('#ba_big_logo').toggle(true);
+
+		$('#tr_big_logo').animate({
+			"margin-left":"-30px",
+			"width":"50px"
+		});
+		$('#vi_big_logo').animate({
+			"margin-left":"-30px",
+			"width":"50px"
+		});		
+		$('#ba_big_logo').animate({
+			"margin-left":"-35px",
+			"width":"65px"
+		});	
 		
 		$('#turkey').toggle(false);
 		$('#vietnam').toggle(false);
 		$('#bangladesh').toggle(true);
 		
 		$('#facilitiesBottomTextContainer').toggle(true);
-		$('#accordionContainer').css("height","50%");
+		$('#accordionContainer').animate({
+			height:"50%"
+		});
+		
+		
 	}
 	else if(country == "tr"){
-		$('#ba_small_logo').toggle(true);
-		$('#ba_big_logo').toggle(false);
-		$('#vi_small_logo').toggle(true);
-		$('#vi_big_logo').toggle(false);
-		$('#tr_small_logo').toggle(false);
-		$('#tr_big_logo').toggle(true);
+
+		$('#ba_big_logo').animate({
+			"margin-left":"-30px",
+			"width":"50px"
+		});
+		$('#vi_big_logo').animate({
+			"margin-left":"-30px",
+			"width":"50px"
+		});		
+		$('#tr_big_logo').animate({
+			"margin-left":"-35px",
+			"width":"65px"
+		});	
 		
 		$('#vietnam').toggle(false);
 		$('#bangladesh').toggle(false);
 		$('#turkey').toggle(true);
 		$('#facilitiesBottomTextContainer').toggle(true);
-		$('#accordionContainer').css("height","50%");
+		$('#accordionContainer').animate({
+			height:"50%"
+		});
 	}
 	else if(country == "viet"){
-		$('#ba_small_logo').toggle(true);
-		$('#ba_big_logo').toggle(false);
-		$('#tr_small_logo').toggle(true);
-		$('#tr_big_logo').toggle(false);
-		$('#vi_small_logo').toggle(false);
-		$('#vi_big_logo').toggle(true);
+
+		$('#tr_big_logo').animate({
+			"margin-left":"-30px",
+			"width":"50px"
+		});
+		$('#ba_big_logo').animate({
+			"margin-left":"-30px",
+			"width":"50px"
+		});		
+		$('#vi_big_logo').animate({
+			"margin-left":"-35px",
+			"width":"65px"
+		});	
+
 		
 		$('#turkey').toggle(false);
 		$('#bangladesh').toggle(false);
 		$('#vietnam').toggle(true);
 		$('#facilitiesBottomTextContainer').toggle(true);
-		$('#accordionContainer').css("height","50%");
+		$('#accordionContainer').animate({
+			height:"50%"
+		});
 	}
 });
 
