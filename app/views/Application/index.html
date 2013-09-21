@@ -352,8 +352,13 @@
     
     $().ready(function() {
     	 $('#accordion-slider').kwicks({
-    	 max : 750,
-    	 spacing : 2
+    	 max : 800,
+    	 spacing : 2,
+    	 easing: 'swing',
+    	 // *** Interaction ***
+    	 // The event that triggers the expand effect
+    	 event: 'click',
+    	 // The event that triggers the collapse effect
     	 });
     });
    

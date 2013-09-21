@@ -48,6 +48,6 @@ $(document).on({
 }, '.jump');
 
 var acHeight = $('#accordionContainer').height();
-$('#accordion-slider>li .i').height(acHeight+100);
+$('#accordion-slider>li .i').height(acHeight+150);
 
 });
