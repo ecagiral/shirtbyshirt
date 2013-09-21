@@ -32,13 +32,8 @@ ul#accordion-slider li{
  overflow: hidden;
  padding: 0;
  float: left;
- width: 33%;
+ width: 33.3%;
 }
-
-ul#accordion-slider li:first-child{
- width: 34%;
-}
-
 
 #clientLogo1:hover{background:url('/public/images/clients/black_logos/massimo_black.png') no-repeat center;width:16%;height:33%}
 #clientLogo2:hover{background:url('/public/images/clients/black_logos/zara_black.png') no-repeat center;width:16%;height:33%}
