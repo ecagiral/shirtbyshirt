@@ -1,4 +1,10 @@
 $(document).ready(function(){
+
+$('.nav li.dropdown').hover(function() {
+    $(this).addClass('open');
+}, function() {
+    $(this).removeClass('open');
+});
 	
 $('.jump').click(function(){
 	$('html, body').animate({
@@ -24,7 +30,7 @@ $('.closeText').click(function(){
 	var dis = $(this);
 	var that = $(this).parents(".pabsolute");
 	that.animate({
-		"left":"-260"				
+		"left":"-290"				
 	}, 500,function(){
 		dis.toggle(false);
 		that.find('.sliderText').toggle(false);
@@ -95,12 +101,15 @@ $('#accordion-slider>li .i').height(acHeight+70);
 
 $(document).on("click", ".countryIcons", function(event){
 	var country = $(this).attr('data-type');
-	$(this).toggleClass("clicked");
+	$(".countryIcons").removeClass("clicked");
+	$(this).addClass("clicked");
 	if(country == "ban"){		
 		$('#tr_small_logo').toggle(true);
 		$('#tr_big_logo').toggle(false);
 		$('#vi_small_logo').toggle(true);
 		$('#vi_big_logo').toggle(false);
+		$('#ba_small_logo').toggle(false);
+		$('#ba_big_logo').toggle(true);
 		
 		$('#turkey').toggle(false);
 		$('#vietnam').toggle(false);
@@ -114,6 +123,8 @@ $(document).on("click", ".countryIcons", function(event){
 		$('#ba_big_logo').toggle(false);
 		$('#vi_small_logo').toggle(true);
 		$('#vi_big_logo').toggle(false);
+		$('#tr_small_logo').toggle(false);
+		$('#tr_big_logo').toggle(true);
 		
 		$('#vietnam').toggle(false);
 		$('#bangladesh').toggle(false);
@@ -126,6 +137,8 @@ $(document).on("click", ".countryIcons", function(event){
 		$('#ba_big_logo').toggle(false);
 		$('#tr_small_logo').toggle(true);
 		$('#tr_big_logo').toggle(false);
+		$('#vi_small_logo').toggle(false);
+		$('#vi_big_logo').toggle(true);
 		
 		$('#turkey').toggle(false);
 		$('#bangladesh').toggle(false);
