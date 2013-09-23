@@ -238,6 +238,6 @@ background:black;text-decoration:underline;
 
 @media (max-width: 980px) {
 .imageContainer,.slides,.slidesjs-container,.slidesjs-control{height:1400px !important}
-/* #contact{height:123% !important} */
+#client .imageContainer,#client .imageContainer .slides,#client .imageContainer .slides .slidesjs-container,#client .imageContainer .slides .slidesjs-container .slidesjs-control{height:676px !important} */
 .sendYourCV{margin-left:90px;}
 }

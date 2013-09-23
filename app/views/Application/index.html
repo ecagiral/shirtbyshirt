@@ -6,7 +6,7 @@
 		<a href="/"><img style="width:100px" src="/public/images/logo.png" /></a>
 	</div>	
 	<div style="width:100%;height:100%" id="mainPageImages">
-	#{if request.headers.get('user-agent').toString().contains('iPhone') || request.headers.get('user-agent').toString().contains('NOKIA') || request.headers.get('user-agent').toString().contains('Android')}	
+	#{if request.headers.get('user-agent').toString().contains('iPhone') || request.headers.get('user-agent').toString().contains('NOKIA') || request.headers.get('user-agent').toString().contains('Android') || request.headers.get('user-agent').toString().contains('iPad')}	
 		<div id="mainBackgroundImage1"></div>
     #{/if}
     #{else}
