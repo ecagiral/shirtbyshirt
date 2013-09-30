@@ -41,17 +41,28 @@ $('.closeText').click(function(){
 
 
 $('#mainPageImages').cycle({
-	fx:     'fade', 
-    speed:  '500', 
-    timeout: 0, 
-    next:   '#fotolar', 
+	fx:     'fade',
+    speed:       600,
+    timeout:     0,
+    pager:      '#nav2',
+    pagerEvent: 'mouseover',
+    pagerAnchorBuilder: function(idx, slide) { 
+        return '#nav2 li:eq(' + idx + ') a'; 
+    }
 });
 
-$(document).on({
-    mouseenter: function () {    	    	        
-    	$('#fotolar').trigger("click");
-    }  
-}, '.jump');
+//$('#mainPageImages').cycle({
+//	fx:     'fade', 
+//    speed:  '500', 
+//    timeout: 0, 
+//    next:   '#fotolar', 
+//});
+//
+//$(document).on({
+//    mouseenter: function () {    	    	        
+//    	$('#fotolar').trigger("click");
+//    }  
+//}, '.jump');
 
 $("#tr_big_logo").mouseover(function() {	
 	if(!$(this).hasClass("clicked")){		

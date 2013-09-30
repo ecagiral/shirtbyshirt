@@ -1,8 +1,8 @@
-#facilitiesBottomTextContainer{display:none}
+#facilitiesBottomTextContainer{display:none;width:360px}
 #turkey{display:none}
 #vietnam{display:none}
 #bangladesh{display:none}
-
+#facilitiesTextContainer{width:530px;position:absolute;top:50%;margin-top:-45px;margin-left:-265px;left:50%}
 
 #tr_big_logo{
 position:absolute;top:50%;left:50%;margin-left:-30px;cursor:pointer;margin-top:-32px;width:50px;
@@ -140,6 +140,8 @@ body{
 #companyText{display:none;font-size:12px;color:#6B6B6B;font-family: 'Questrial', sans-serif;}
 #servicesText{display:none;font-size:12px;color:#6B6B6B;font-family: 'Questrial', sans-serif;}
 #facilitiesText{font-size:12px;color:#6B6B6B;font-family: 'Questrial', sans-serif;float:left;text-align:left}
+#facilitiesText span{color:black;font-size:13px;background:yellow;padding:1px 5px 1px 5px}
+
 
 #mainBackgroundImage1{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/1company.jpg');width:100%;height:100%}
 #mainBackgroundImage2{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/2showroom.jpg');width:100%;height:100%}
@@ -240,4 +242,105 @@ background:black;text-decoration:underline;
 .imageContainer,.slides,.slidesjs-container,.slidesjs-control{height:1400px !important}
 #client .imageContainer,#client .imageContainer .slides,#client .imageContainer .slides .slidesjs-container,#client .imageContainer .slides .slidesjs-container .slidesjs-control{height:676px !important} */
 .sendYourCV{margin-left:90px;}
+}
+
+
+
+
+
+@media (max-width: 767px) {
+	#facilitiesText{
+	font-size: 11px;
+	}
+	#facilitiesTextContainer{width:360px;margin-left:-180px;}
+	#facilitiesText span{font-size:11px;}
+	.sectionHeaders{
+	font-size:16px;
+	padding-top:25px;
+	}
+	#servicesText,#companyText{
+	font-size: 11px;
+	}
+	.sendYourCV{font-size: 11px;
+	}
+	.contactAddress{
+	font-size: 11px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 980px) {
+	#facilitiesText{
+	font-size: 12px;
+	}
+	#facilitiesTextContainer{width:400px;margin-left:-200px;}
+	#facilitiesText span{font-size:12px;}
+	
+	.sectionHeaders{
+	font-size:16px;
+	padding-top:25px;
+	}
+	
+	#servicesText,#companyText{
+	font-size: 12px;
+	}
+	.sendYourCV{
+	font-size: 12px;
+	}
+	.contactAddress{
+	font-size: 12px;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media (min-width: 980px) and (max-width: 1200px) {
+	#facilitiesText{
+	font-size: 12px;
+	}
+	#facilitiesTextContainer{width:400px;margin-left:-200px;}
+	#facilitiesText span{font-size:12px;}
+	.sectionHeaders{
+	font-size:17px;
+	padding-top:25px;
+	}
+	#servicesText,#companyText{
+	font-size: 12px;
+	}
+	.sendYourCV{
+	font-size: 12px;
+	}
+	.contactAddress{
+	font-size: 12px;
+	}
+}
+
+
+/* Desktops and laptops ----------- */
+@media (min-width: 1200px) and (max-width: 1699px) {
+	#facilitiesText{font-size: 13px;}	
+	#facilitiesTextContainer{width:400px;margin-left:-200px;}
+	#facilitiesText span{font-size:13px;}
+	#facilitiesBottomTextContainer{width:400px}
+	.sectionHeaders{font-size:18px;padding-top:25px;}
+	#servicesText,#companyText{
+	font-size:13px;
+	}
+	.sendYourCV{
+	font-size:13px;
+	}
+	.contactAddress{
+	font-size:13px;
+	}
+}
+
+/* Large screens ----------- */
+@media (min-width: 1700px) and (max-width: 2200px) {
+	#facilitiesText{font-size: 17px;}	
+	#facilitiesTextContainer{width:680px;margin-left:-340px;}
+	#facilitiesText span{font-size:17px;}
+	#facilitiesBottomTextContainer{width:690px}
+	.sectionHeaders{font-size:20px;padding-top:25px;}
+	#servicesText,#companyText{font-size: 16px;}
+	.sendYourCV{font-size: 17px;margin-left:-150px}
+	.contactAddress{font-size: 17px;}
 }
