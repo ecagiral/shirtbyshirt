@@ -151,7 +151,7 @@ body{
 #mainBackgroundImage6{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/6contact.jpg');width:100%;height:100%}
 #mainBackgroundImage7{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/7career.jpg');width:100%;height:100%}
 
-.sendYourCV{font-size:13px;margin-left:60px}
+.sendYourCV{font-size:13px;margin-left:0px}
 .contactCountry{font-size:13px}
 .contactAddress{font-size:12px}
 .navbar-nav>li>a {
@@ -241,7 +241,6 @@ background:black;text-decoration:underline;
 @media (max-width: 980px) {
 .imageContainer,.slides,.slidesjs-container,.slidesjs-control{height:1400px !important}
 #client .imageContainer,#client .imageContainer .slides,#client .imageContainer .slides .slidesjs-container,#client .imageContainer .slides .slidesjs-container .slidesjs-control{height:676px !important} */
-.sendYourCV{margin-left:90px;}
 }
 
 
@@ -261,8 +260,7 @@ background:black;text-decoration:underline;
 	#servicesText,#companyText{
 	font-size: 11px;
 	}
-	.sendYourCV{font-size: 11px;
-	}
+	.sendYourCV{font-size: 11px;}
 	.contactAddress{
 	font-size: 11px;
 	}
@@ -285,7 +283,7 @@ background:black;text-decoration:underline;
 	font-size: 12px;
 	}
 	.sendYourCV{
-	font-size: 12px;
+	font-size: 12px;margin-left:60px;
 	}
 	.contactAddress{
 	font-size: 12px;
@@ -307,7 +305,7 @@ background:black;text-decoration:underline;
 	font-size: 12px;
 	}
 	.sendYourCV{
-	font-size: 12px;
+	font-size: 12px;margin-left:30px;
 	}
 	.contactAddress{
 	font-size: 12px;
@@ -326,7 +324,7 @@ background:black;text-decoration:underline;
 	font-size:13px;
 	}
 	.sendYourCV{
-	font-size:13px;
+	font-size:13px;margin-left:0px;
 	}
 	.contactAddress{
 	font-size:13px;
@@ -341,6 +339,6 @@ background:black;text-decoration:underline;
 	#facilitiesBottomTextContainer{width:690px}
 	.sectionHeaders{font-size:20px;padding-top:25px;}
 	#servicesText,#companyText{font-size: 16px;}
-	.sendYourCV{font-size: 17px;margin-left:-150px}
+	.sendYourCV{font-size: 17px;margin-left:-140px}
 	.contactAddress{font-size: 17px;}
 }
