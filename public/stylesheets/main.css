@@ -260,7 +260,7 @@ background:black;text-decoration:underline;
 	#servicesText,#companyText{
 	font-size: 11px;
 	}
-	.sendYourCV{font-size: 11px;}
+	.sendYourCV{font-size: 11px;margin-left:115px;}
 	.contactAddress{
 	font-size: 11px;
 	}
