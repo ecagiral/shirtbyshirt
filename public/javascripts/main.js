@@ -115,6 +115,10 @@ $("#ba_big_logo").mouseover(function() {
 var acHeight = $('#accordionContainer').height();
 $('#accordion-slider>li .i').height(acHeight+70);
 
+$('#accordion-slider>li').on("click",function(){
+
+});
+
 
 $(document).on("click", ".countryIcons", function(event){
 	var country = $(this).attr('data-type');

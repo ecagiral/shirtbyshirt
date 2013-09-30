@@ -1,3 +1,45 @@
+.kwicks {
+	display: block;
+	list-style-type: none;
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.kwicks > * {
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+.kwicks.kwicks-processed > * {
+	margin: 0;
+	position: absolute;
+}
+.kwicks-horizontal > * {
+	float: left;
+}
+.kwicks-horizontal > :first-child {
+	margin-left: 0;
+}
+
+.kwicks-horizontal {
+margin: 0;
+padding: 0;
+list-style: none;
+position: relative;
+}
+
+.kwicks-horizontal > li {
+display: block;
+overflow: hidden;
+padding: 0;
+float: left;
+width: 33.3%;
+}
+
+
+
 #facilitiesBottomTextContainer{display:none;width:360px}
 #turkey{display:none}
 #vietnam{display:none}
@@ -143,13 +185,13 @@ body{
 #facilitiesText span{color:black;font-size:13px;background:yellow;padding:1px 5px 1px 5px}
 
 
-#mainBackgroundImage1{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/1company.jpg');width:100%;height:100%}
-#mainBackgroundImage2{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/2showroom.jpg');width:100%;height:100%}
-#mainBackgroundImage3{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/3facilities_DSC4526a.jpg');width:100%;height:100%}
-#mainBackgroundImage4{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/4services.jpg');width:100%;height:100%}
-#mainBackgroundImage5{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/5Clients_DSC4419a.jpg');width:100%;height:100%}
-#mainBackgroundImage6{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/6contact.jpg');width:100%;height:100%}
-#mainBackgroundImage7{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/7career.jpg');width:100%;height:100%}
+#mainBackgroundImage1{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/1company.jpg');width:100% !important;height:100% !important;}
+#mainBackgroundImage2{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/2showroom.jpg');width:100% !important;height:100% !important;}
+#mainBackgroundImage3{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/3facilities_DSC4526a.jpg');width:100% !important;height:100% !important;}
+#mainBackgroundImage4{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/4services.jpg');width:100% !important;height:100% !important;}
+#mainBackgroundImage5{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/5Clients_DSC4419a.jpg');width:100% !important;height:100% !important;}
+#mainBackgroundImage6{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/6contact.jpg');width:100% !important;height:100% !important;}
+#mainBackgroundImage7{background-size:cover;margin-left:30px;background-image:url('/public/images/anasayfa/7career.jpg');width:100% !important;height:100% !important;}
 
 .sendYourCV{font-size:13px;margin-left:0px}
 .contactCountry{font-size:13px}

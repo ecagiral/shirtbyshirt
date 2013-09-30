@@ -112,23 +112,39 @@
 	        </div>
 		</div>	
 			
-        
-		<div id="accordionContainer" style="height:75%;overflow:hidden;background:black">		
-			<ul id="accordion-slider">
-				<li id="first">
-					<img class="i" src="/public/images/facilities/1Turkiye_DSC4660a.jpg" alt="Image Title"/>
+        <div id="accordionContainer" style="height: 75%;overflow: hidden;background: #000;">
+            <ul id="accordion-slider" class='kwicks kwicks-horizontal'>
+                <li id="first">
+                	<img class="i" src="/public/images/facilities/1Turkiye_DSC4660a.jpg" alt="Image Title"/>
 					<img class="countryIcons" data-type="tr" id="tr_big_logo" src="/public/images/facilities/Large/TR_L.png"/>
-				</li>
-				<li id="second">
-					<img class="i" src="/public/images/facilities/2Vietnam_DSC4472a.jpg" alt="Image Title"/>
+                </li>
+                <li id="second">
+        	        <img class="i" src="/public/images/facilities/2Vietnam_DSC4472a.jpg" alt="Image Title"/>
 					<img class="countryIcons" data-type="viet" id="vi_big_logo" src="/public/images/facilities/Large/VIE_L.png"/>
-				</li>
-				<li id="third">
-					<img class="i" src="/public/images/facilities/3Bangladesh_DSC4594a.jpg" alt="Image Title"/>					
+                </li>
+                <li id="third">
+                	<img class="i" src="/public/images/facilities/3Bangladesh_DSC4594a.jpg" alt="Image Title"/>					
 					<img class="countryIcons" data-type="ban" id="ba_big_logo" src="/public/images/facilities/Large/BAN_L.png"/>
-				</li>		
-			</ul>				
-		</div>
+                </li>
+            </ul>
+        </div>
+        
+<!-- 		<div id="accordionContainer" style="height:75%;overflow:hidden;background:black">		 -->
+<!-- 			<ul id="accordion-slider"> -->
+<!-- 				<li id="first"> -->
+<!-- 					<img class="i" src="/public/images/facilities/1Turkiye_DSC4660a.jpg" alt="Image Title"/> -->
+<!-- 					<img class="countryIcons" data-type="tr" id="tr_big_logo" src="/public/images/facilities/Large/TR_L.png"/> -->
+<!-- 				</li> -->
+<!-- 				<li id="second"> -->
+<!-- 					<img class="i" src="/public/images/facilities/2Vietnam_DSC4472a.jpg" alt="Image Title"/> -->
+<!-- 					<img class="countryIcons" data-type="viet" id="vi_big_logo" src="/public/images/facilities/Large/VIE_L.png"/> -->
+<!-- 				</li> -->
+<!-- 				<li id="third"> -->
+<!-- 					<img class="i" src="/public/images/facilities/3Bangladesh_DSC4594a.jpg" alt="Image Title"/>					 -->
+<!-- 					<img class="countryIcons" data-type="ban" id="ba_big_logo" src="/public/images/facilities/Large/BAN_L.png"/> -->
+<!-- 				</li>		 -->
+<!-- 			</ul>				 -->
+<!-- 		</div> -->
 		
 		<div class="container text-center" id="facilitiesBottomTextContainer">
 			<div id="turkey">	          
@@ -318,7 +334,7 @@
 		</div>				  			
 	</div>
 </section>
-
+        
 <section id="career" style="position:relative;height:100%;overflow: hidden;padding: 0;">
 	<div style="margin-top:50px;height:100%">
 		<div style="height:50px;width:100%;text-align:center">
@@ -331,7 +347,8 @@
           			</p>  
 	      	</div>
 		</div>		
-		<div id="careerBackgroundImage1" style="padding:0 0 0 100px;margin-left:50px"></div>				  			
+		<div id="careerBackgroundImage1" style="padding:0 0 0 100px;margin-left:50px"></div>
+
 	</div>
 </section>
 
@@ -344,15 +361,33 @@
       })
     });
     
-    $().ready(function() {
-    	 $('#accordion-slider').kwicks({
-    	 max : 820,
-    	 spacing : 2,
-    	 easing: 'swing',
-    	 // The event that triggers the expand effect
-    	 event: 'click',
-    	 eventClose: 'click'   	 
-    	 });
-    });   
+//     $().ready(function() {
+//     	 $('#accordion-slider').kwicks({
+//     	 max : 820,
+//     	 spacing : 2,
+//     	 easing: 'swing',
+//     	 // The event that triggers the expand effect
+//     	 event: 'click'	 
+//     	 });
+//     });   
+  
    
 </script>
+
+
+<script type='text/javascript'>
+	$(function() {
+		$('.kwicks').kwicks({
+			maxSize: '75%',
+			behavior: 'menu',
+			easing: 'swing',
+			event: 'click',
+			spacing : 2,
+			event: 'click',	
+			duration: 800,
+			selectOnClick: true,
+			delayMouseIn: 1000000000,
+			delayMouseOut: 1000000000,
+		});
+	});
+</script> 
