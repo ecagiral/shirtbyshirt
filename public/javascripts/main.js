@@ -42,7 +42,7 @@ $('.closeText').click(function(){
 
 $('#mainPageImages').cycle({
 	fx:     'fade',
-    speed:       600,
+    speed:       800,
     timeout:     0,
     pager:      '#nav2',
     pagerEvent: 'mouseover',
