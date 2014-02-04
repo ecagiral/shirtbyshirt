@@ -14,7 +14,8 @@
         #{get 'moreStyles' /}
         <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    	<script src="//code.jquery.com/jquery.js"></script>
+<!--     	<script src="//code.jquery.com/jquery.js"></script> -->
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     	<script src="/public/javascripts/jquery.slides.min.js"></script>
     	<script src="/public/javascripts/jquery.cycle.all.js"></script>
     	<script type="text/javascript" src="/public/javascripts/jquery.kwicks.js"></script>    	
@@ -25,6 +26,10 @@
     </head>
     <body style="height: 100%;">
     	#{header /}
+    	<div id="popUpContainer">
+    		<img id="closePopUp" src="/public/images/x.png" />
+    		<img id="popupImage" src="/public/images/popup1.png" />
+    	</div>
         #{doLayout /}
     </body>
 </html>

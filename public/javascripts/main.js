@@ -13,6 +13,11 @@ $('.jump').click(function(){
 	return false;
 });
 
+$('#closePopUp').click(function(){
+	$(this).parent().toggle(false);
+	return false;
+});
+
 $('.openText').click(function(){
 	var dis = $(this);
 	var that = $(this).parents(".pabsolute");
