@@ -145,13 +145,14 @@ ul#accordion-slider li{
 #clientLogo27{float:left;display:block;background:url('/public/images/clients/white_logos/brice_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
 #clientLogo28{float:left;display:block;background:url('/public/images/clients/white_logos/henrycottons_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
 #clientLogo30{float:left;display:block;background:url('/public/images/clients/white_logos/el_corte_ingles_white.png') no-repeat 50% 50%;width:17.5%;height:33.2%;background-size: 100% 133.2%}
-#clientLogo31{float:left;display:block;background:url('/public/images/clients/white_logos/emido_tucci_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo31{opacity:0.8;float:left;display:block;background:url('/public/images/clients/white_logos/emido_tucci_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
 #clientLogo32{float:left;display:block;background:url('/public/images/clients/white_logos/celio_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
 #clientLogo33{float:left;display:block;background:url('/public/images/clients/white_logos/heroseven_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
 #clientLogo34{float:left;display:block;background:url('/public/images/clients/white_logos/carnet_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
-#clientLogo35{float:left;display:block;background:url('/public/images/clients/white_logos/jackjones_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
-#clientLogo36{float:left;display:block;background:url('/public/images/clients/white_logos/pull&bear_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo35{opacity:0.8;float:left;display:block;background:url('/public/images/clients/white_logos/jackjones_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo36{opacity:0.8;float:left;display:block;background:url('/public/images/clients/white_logos/pull&bear_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
 #clientLogo37{float:left;display:block;background:url('/public/images/clients/white_logos/george_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+.bgBlack{opacity:0.8;float:left;display:block;background:url('/public/images/clients/siyah.png') no-repeat 50% 50%;width:16.7%;height:33.2%;background-size: 100% 133.2%}
 
 
 #careerBackgroundImage1{background-size:cover;background-image:url('/public/images/career/Career.jpg');width:100%;height:100%}
