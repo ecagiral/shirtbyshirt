@@ -114,6 +114,17 @@ ul#accordion-slider li{
 #clientLogo36:hover{background:url('/public/images/clients/black_logos/pull&bear_black.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
 #clientLogo37:hover{background:url('/public/images/clients/black_logos/george_black.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
 
+#clientLogo38:hover{float:left;display:block;background:url('/public/images/clients/black_logos/mudo_fts64_black.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo39:hover{float:left;display:block;background:url('/public/images/clients/black_logos/zara_man_black.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo40:hover{float:left;display:block;background:url('/public/images/clients/black_logos/zara_kids_black.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo41:hover{float:left;display:block;background:url('/public/images/clients/black_logos/zara_baby_black.png') no-repeat 50% 50%;width:17.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo42:hover{float:left;display:block;background:url('/public/images/clients/black_logos/vintage_black.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo43:hover{float:left;display:block;background:url('/public/images/clients/black_logos/selected_black.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo44:hover{float:left;display:block;background:url('/public/images/clients/black_logos/premium_black.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo45:hover{float:left;display:block;background:url('/public/images/clients/black_logos/originals_black.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo46:hover{float:left;display:block;background:url('/public/images/clients/black_logos/kigili_black.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo47:hover{float:left;display:block;background:url('/public/images/clients/black_logos/core_black.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo48:hover{float:left;display:block;background:url('/public/images/clients/black_logos/bskgirl_black.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
 
 
 #clientLogo1{float:left;display:block;background:url('/public/images/clients/white_logos/massimo_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
@@ -152,6 +163,20 @@ ul#accordion-slider li{
 #clientLogo35{opacity:0.8;float:left;display:block;background:url('/public/images/clients/white_logos/jackjones_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
 #clientLogo36{opacity:0.8;float:left;display:block;background:url('/public/images/clients/white_logos/pull&bear_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
 #clientLogo37{float:left;display:block;background:url('/public/images/clients/white_logos/george_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+
+#clientLogo38{float:left;display:block;background:url('/public/images/clients/white_logos/mudo_fts64_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo39{float:left;display:block;background:url('/public/images/clients/white_logos/zara_man_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo40{float:left;display:block;background:url('/public/images/clients/white_logos/zara_kids_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo41{float:left;display:block;background:url('/public/images/clients/white_logos/zara_baby_white.png') no-repeat 50% 50%;width:17.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo42{float:left;display:block;background:url('/public/images/clients/white_logos/vintage_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo43{float:left;display:block;background:url('/public/images/clients/white_logos/selected_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo44{float:left;display:block;background:url('/public/images/clients/white_logos/premium_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo45{float:left;display:block;background:url('/public/images/clients/white_logos/originals_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo46{float:left;display:block;background:url('/public/images/clients/white_logos/kigili_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo47{float:left;display:block;background:url('/public/images/clients/white_logos/core_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+#clientLogo48{float:left;display:block;background:url('/public/images/clients/white_logos/bskgirl_white.png') no-repeat 50% 50%;width:16.5%;height:33.2%;background-size: 100% 133.2%}
+
+
 .bgBlack{opacity:0.8;float:left;display:block;background:url('/public/images/clients/siyah.png') no-repeat 50% 50%;width:16.7%;height:33.2%;background-size: 100% 133.2%}
 
 
