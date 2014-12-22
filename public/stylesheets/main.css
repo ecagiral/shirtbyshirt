@@ -418,7 +418,7 @@ background-color:rgba(0, 0, 0, 0.79);
 /* Desktops and laptops ----------- */
 @media (min-width: 1200px) and (max-width: 1699px) {
 	#facilitiesText{font-size: 13px;}	
-	#facilitiesTextContainer{width:400px;margin-left:-200px;}
+	#facilitiesTextContainer{width:450px;margin-left:-225px;}
 	#facilitiesText span{font-size:13px;}
 	#facilitiesBottomTextContainer{width:400px}
 	.sectionHeaders{font-size:18px;padding-top:25px;}
